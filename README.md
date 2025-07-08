@@ -12,7 +12,7 @@ A [markdown-it](https://github.com/markdown-it/markdown-it) plugin that converts
 
 ## How to use
 
-### Installation
+### Step 1: Installation
 
 You can install markdown-it-multiple-choice as one of your VitePress project dependencies with the following command:
 
@@ -20,9 +20,9 @@ You can install markdown-it-multiple-choice as one of your VitePress project dep
 npm install markdown-it-multiple-choice
 ```
 
-## Integrate with VitePress
+### Step 2: Integrate with VitePress
 
-### Configure VitePress config
+#### Configure VitePress config
 
 ```js
 // .vitepress/config.js
@@ -43,7 +43,7 @@ export default defineConfig({
 })
 ```
 
-### Step 3: Setup theme
+#### Setup theme
 
 Create `.vitepress/theme/index.js`:
 
